@@ -17,3 +17,7 @@ notifications:
     on_failure: change
     on_success: change
 
+deploy:
+  provider: heroku
+  api_key: a0693624-fb05-449b-97a7-c86d4c4b8453
+  app: appexptravis
